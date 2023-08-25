@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPlatform.UserService.Api", "DigitalPlatform.UserService\DigitalPlatform.UserService.Api.csproj", "{1D4D5036-D6FD-4E75-9374-FDF536E4C1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPlatform.UserService.DataAccess", "DigitalPlatform.UserService.DataAccess\DigitalPlatform.UserService.DataAccess.csproj", "{601D2BB5-EB7F-4B2F-B481-BCCFA018150B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPlatform.UserService.Entity", "DigitalPlatform.UserService.Entity\DigitalPlatform.UserService.Entity.csproj", "{09372778-DF82-49A7-999F-EE2305A63543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPlatform.UserService.Share", "DigitalPlatform.UserService.Share\DigitalPlatform.UserService.Share.csproj", "{92C7FC2D-C48E-4015-84F1-6D3214021C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPlatform.UserService.Database", "DigitalPlatform.UserService.Database\DigitalPlatform.UserService.Database.csproj", "{42AF7E92-EF34-4ABD-ADB3-96C0916D2D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPlatform.UserService.Domain", "DigitalPlatform.UserService.Domain\DigitalPlatform.UserService.Domain.csproj", "{BBD84FF5-E780-4E28-95EF-C092F53D107D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D4D5036-D6FD-4E75-9374-FDF536E4C1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4D5036-D6FD-4E75-9374-FDF536E4C1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4D5036-D6FD-4E75-9374-FDF536E4C1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4D5036-D6FD-4E75-9374-FDF536E4C1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601D2BB5-EB7F-4B2F-B481-BCCFA018150B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601D2BB5-EB7F-4B2F-B481-BCCFA018150B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601D2BB5-EB7F-4B2F-B481-BCCFA018150B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601D2BB5-EB7F-4B2F-B481-BCCFA018150B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09372778-DF82-49A7-999F-EE2305A63543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09372778-DF82-49A7-999F-EE2305A63543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09372778-DF82-49A7-999F-EE2305A63543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09372778-DF82-49A7-999F-EE2305A63543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C7FC2D-C48E-4015-84F1-6D3214021C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C7FC2D-C48E-4015-84F1-6D3214021C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C7FC2D-C48E-4015-84F1-6D3214021C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C7FC2D-C48E-4015-84F1-6D3214021C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AF7E92-EF34-4ABD-ADB3-96C0916D2D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AF7E92-EF34-4ABD-ADB3-96C0916D2D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AF7E92-EF34-4ABD-ADB3-96C0916D2D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AF7E92-EF34-4ABD-ADB3-96C0916D2D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD84FF5-E780-4E28-95EF-C092F53D107D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD84FF5-E780-4E28-95EF-C092F53D107D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD84FF5-E780-4E28-95EF-C092F53D107D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD84FF5-E780-4E28-95EF-C092F53D107D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D81265BD-F1BB-439C-ACD1-21D0765122D4}
+	EndGlobalSection
+EndGlobal

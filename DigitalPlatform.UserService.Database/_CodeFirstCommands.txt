@@ -1,0 +1,8 @@
+-- Database
+$env:ASPNETCORE_ENVIRONMENT='Local'
+Enable-Migrations -Project "DigitalPlatform.UserService.Database"
+Add-Migration -Name "Init" -StartUpProject "DigitalPlatform.UserService.Api" -Project "DigitalPlatform.UserService.Database" -Context "DatabaseContext" -OutputDir "Migrations"
+Update-Database -StartUpProject "DigitalPlatform.UserService.Api" -Project "DigitalPlatform.UserService.Database" -Context "DatabaseContext"
+
+--Roll back migration
+Update-Database "20190826101959_ApplyGlobalFilter" -StartUpProject "DigitalPlatform.UserService.Api" -Project "DigitalPlatform.UserService.Database"
