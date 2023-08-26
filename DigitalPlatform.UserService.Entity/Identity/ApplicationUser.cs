@@ -46,5 +46,10 @@ namespace DigitalPlatform.UserService.Entity.Identity
 
         public Guid? DepartmentId { get; set; }
         public virtual Department Department { get; set; }
+
+
+        //not map prop
+        [NotMapped]
+        public List<Guid> RoleIds { get; set; }
     }
 }

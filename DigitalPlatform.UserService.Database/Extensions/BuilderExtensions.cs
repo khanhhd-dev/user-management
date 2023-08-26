@@ -37,5 +37,10 @@ namespace DigitalPlatform.UserService.Database.Extensions
         {
 
         }
+
+        public static void Seed(this ModelBuilder modelBuilder)
+        {
+
+        }
     }
 }

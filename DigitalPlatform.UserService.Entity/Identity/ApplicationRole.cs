@@ -2,6 +2,7 @@
 using DigitalPlatform.UserService.Entity._base;
 using DigitalPlatform.UserService.Share;
 using Microsoft.AspNetCore.Identity;
+using static DigitalPlatform.UserService.Share.CommonEnum;
 
 namespace DigitalPlatform.UserService.Entity.Identity
 {
@@ -20,7 +21,7 @@ namespace DigitalPlatform.UserService.Entity.Identity
 
 
         [Column(TypeName = "varchar(255)")] 
-        public string RoleType { get; set; }
+        public RoleType RoleType { get; set; }
 
 
         [Column(TypeName = "varchar(255)")] 

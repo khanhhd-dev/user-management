@@ -20,5 +20,16 @@ namespace DigitalPlatform.UserService.Share
             [Description("Nữ")]
             Female
         }
+        public enum RoleType
+        {
+            [Description("Full")]
+            FullAccess = 1,
+
+            [Description("Cms")]
+            Cms,
+
+            [Description("Khách hàng")]
+            Customer
+        }
     }
 }

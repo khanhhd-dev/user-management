@@ -4,6 +4,7 @@
     {
         public static readonly Guid SystemId = new("00000000-0000-0000-0000-000000000001");
         public static readonly string SystemUser = "system@gmail.com";
+        public static readonly string RoleSystemAdministrator = "SystemAdministrator";
         public const string DefaultPassword = "Abcde12345-";
 
         public struct JwtRegisteredClaimNames

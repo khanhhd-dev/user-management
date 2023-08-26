@@ -3,6 +3,7 @@ using DigitalPlatform.UserService.DataAccess.Repository;
 using DigitalPlatform.UserService.Database;
 using DigitalPlatform.UserService.Entity;
 using DigitalPlatform.UserService.Entity._base;
+using DigitalPlatform.UserService.Entity.Identity;
 using DigitalPlatform.UserService.Share;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,18 @@ namespace DigitalPlatform.UserService.DataAccess.UnitOfWork
             HttpContextAccessor = httpContextAccessor;
             Repositories = new Dictionary<string, object>();
         }
+
+        private IRepository<ApplicationUser> _userRepository;
+        public IRepository<ApplicationUser> UserRepository => _userRepository ??= new Repository<ApplicationUser>(DataContext);
+
+        private IRepository<ApplicationRole> _roleRepository;
+        public IRepository<ApplicationRole> RoleRepository => _roleRepository ??= new Repository<ApplicationRole>(DataContext);
+
+        private IRepository<JobTitle> _jobTitleRepository;
+        public IRepository<JobTitle> JobTitleRepository => _jobTitleRepository ??= new Repository<JobTitle>(DataContext);
+
+        private IRepository<Department> _departmentRepository;
+        public IRepository<Department> DepartmentRepository => _departmentRepository ??= new Repository<Department>(DataContext);
 
         #region Logging
         private IRepository<Log> _logRepository;
